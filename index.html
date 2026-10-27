@@ -2431,7 +2431,14 @@
         margin-bottom: 22px;
       }
     }
-  </style>
+  
+
+    /* Keep the single Wedding Ceremony card centered on desktop too. */
+    .events .event-grid {
+      grid-template-columns: minmax(0, 760px);
+      justify-content: center;
+    }
+</style>
 </head>
 
 <body class="no-scroll">
@@ -2737,26 +2744,6 @@
           </p>
         </div>
       </div>
-    </section>
-
-    <div class="container">
-      <div class="section-heading reveal">
-        <div class="eyebrow gold">WITH THE BLESSINGS OF OUR LOVED ONES</div>
-        <h2>A Family Celebration</h2>
-        <p>With grateful hearts, we invite you to share in this special occasion and bless the couple as they begin
-          their new journey.</p>
-      </div>
-      <div class="family-card reveal">
-        <div class="ornament">✦ ❧ ✦ ❧ ✦</div>
-        <div class="family-names">
-          <div class="family-name grandfather"><strong>Sh. Surat Singh</strong><span>Grandfather</span></div>
-          <div class="family-name"><strong>Sumitra Devi</strong><span>Mother</span></div>
-          <div class="family-name"><strong>Hari Prakash</strong><span>Father</span></div>
-        </div>
-        <p style="color:#e7d0c0;font-size:.82rem;line-height:1.7;margin:24px 0 0">With love and blessings from the
-          family.</p>
-      </div>
-    </div>
     </section>
 
     <section class="section venue" id="venue">
